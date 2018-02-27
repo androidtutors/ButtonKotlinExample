@@ -16,7 +16,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textview_hello"
+        android:textSize="40sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
 
     <!-- TODO 8 : Add a button with text "Change" and id button_change -->
     <!-- TODO 9 : Set layout_width and layout_height to wrap_content -->
