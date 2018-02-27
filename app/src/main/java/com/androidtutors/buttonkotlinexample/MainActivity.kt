@@ -5,8 +5,20 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //TODO 18 : Set string constant revertString to textview_hello's text
+
+        //TODO 19 : Add setOnClickListener on button_revert and set textview_hello to revertString
+
+
     }
+
+    //TODO 16 : Create a method changeTextOnClick with no return value
+    //TODO 17 : Change the text of textview_hello to "Learning Kotlin" inside the method
+
+
 }
