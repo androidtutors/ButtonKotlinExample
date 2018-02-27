@@ -27,6 +27,14 @@
     <!-- TODO 10 : Change text size of button_change to 20sp -->
     <!-- TODO 11 : Add layout_margin of 16dp to button_change -->
     <!-- TODO 12 : Set layout_gravity to center for button_change -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_change"
+        android:text="Change"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
 
     <!-- TODO 15 : Add onClick attribute and add the method name "textChangeOnClick" -->
 
