@@ -34,7 +34,8 @@
         android:text="Change"
         android:textSize="20sp"
         android:layout_margin="16dp"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="textChangeOnClick"/>
 
     <!-- TODO 15 : Add onClick attribute and add the method name "textChangeOnClick" -->
 
