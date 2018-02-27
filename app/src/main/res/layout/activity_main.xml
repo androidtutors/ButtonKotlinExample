@@ -2,11 +2,11 @@
 <!-- TODO 1 : Change from ConstraintLayout to LinearLayout -->
 <!-- TODO 2 : Delete all the attributes related to ConstraintLayout -->
 <!-- TODO 3 : Change orientation to vertical -->
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.androidtutors.buttonkotlinexample.MainActivity">
 
     <!-- TODO 4 : Add an id textview-hello to the textview with "Hello World!" -->
@@ -16,11 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Hello World!" />
 
     <!-- TODO 8 : Add a button with text "Change" and id button_change -->
     <!-- TODO 9 : Set layout_width and layout_height to wrap_content -->
@@ -29,10 +25,10 @@
     <!-- TODO 12 : Set layout_gravity to center for button_change -->
 
     <!-- TODO 15 : Add onClick attribute and add the method name "textChangeOnClick" -->
-    
+
     <!-- TODO 13 : Add another button with text "Revert" and id button_revert -->
     <!-- TODO 14 : Copy all other attributes from button_change -->
 
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
