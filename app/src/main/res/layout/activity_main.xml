@@ -40,6 +40,14 @@
 
     <!-- TODO 13 : Add another button with text "Revert" and id button_revert -->
     <!-- TODO 14 : Copy all other attributes from button_change -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_revert"
+        android:text="Revert"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
 
 
 
