@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //TODO 18 : Set string constant revertString to textview_hello's text
+        val revertString = textview_hello.text.toString()
 
         //TODO 19 : Add setOnClickListener on button_revert and set textview_hello to revertString
 
