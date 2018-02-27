@@ -2,6 +2,8 @@ package com.androidtutors.buttonkotlinexample
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,6 +21,9 @@ class MainActivity : AppCompatActivity() {
 
     //TODO 16 : Create a method changeTextOnClick with no return value
     //TODO 17 : Change the text of textview_hello to "Learning Kotlin" inside the method
+    fun changeTextOnClick(v: View){
+        textview_hello.text = "Learning Kotlin"
+    }
 
 
 }
