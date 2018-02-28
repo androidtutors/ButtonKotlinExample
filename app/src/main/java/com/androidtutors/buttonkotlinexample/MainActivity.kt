@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         val revertString = textview_hello.text.toString()
 
         //TODO 19 : Add setOnClickListener on button_revert and set textview_hello to revertString
+        button_revert.setOnClickListener({
+            textview_hello.text = revertString
+        })
 
 
     }
